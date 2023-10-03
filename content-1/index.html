@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <script src="hamburger.js"></script>
 </head>
 
 
@@ -22,7 +22,7 @@
             <div class="logo">
                <img src="img/logo_f0f0f0.jpg" alt="">
             </div>
-            <nav>
+            <nav class="header-nav">
                 <ul>
                     <li>
                         <a href="#about" class="head-title">私たちについて</a>
@@ -40,6 +40,19 @@
         <a href="./contact/contact.html" target="_blank" class="sp-contact"><span id="mail" class="material-symbols-outlined">
             mail
             </span></a>
+        <button class="hamburger-menu" id="js-hamburger-menu">
+          <span class="hamburger-menu__bar"></span>
+          <span class="hamburger-menu__bar"></span>
+          <span class="hamburger-menu__bar"></span>
+        </button>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__list-item"><a href="#about" class="navigation__link">私たちについて</a></li>
+            <li class="navigation__list-item"><a href="#business" class="navigation__link">事業内容</a></li>
+            <li class="navigation__list-item"><a href="#company" class="navigation__link">会社情報</a></li>
+            <li class="navigation__list-item"><a href="./contact/contact.html" target="_blank" class="navigation__link">お問い合わせ</a></li>
+          </ul>
+        </nav>
     </header>
 
     <main>
