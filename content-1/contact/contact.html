@@ -6,6 +6,8 @@
     <title>Contact</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="contact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../hamburger.js"></script>
 </head>
 <body>
 
@@ -14,7 +16,7 @@
             <div class="logo">
                <a href="../index.html"><img src="../img/logo_f0f0f0.jpg" alt="" class="header-logo"></a>
             </div>
-            <nav>
+            <nav class="header-nav">
                 <ul>
                     <li>
                         <a href="#about" class="head-title">私たちについて</a>
@@ -32,6 +34,19 @@
         <a href="./contact/contact.html" class="sp-contact"><span id="mail" class="material-symbols-outlined">
             mail
             </span></a>
+        <button class="hamburger-menu" id="js-hamburger-menu">
+          <span class="hamburger-menu__bar"></span>
+          <span class="hamburger-menu__bar"></span>
+          <span class="hamburger-menu__bar"></span>
+        </button>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__list-item"><a href="#about" class="navigation__link">私たちについて</a></li>
+            <li class="navigation__list-item"><a href="#business" class="navigation__link">事業内容</a></li>
+            <li class="navigation__list-item"><a href="#company" class="navigation__link">会社情報</a></li>
+            <li class="navigation__list-item"><a href="./contact/contact.html" target="_blank" class="navigation__link">お問い合わせ</a></li>
+          </ul>
+        </nav>
     </header>
 
     <main>
