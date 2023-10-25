@@ -161,20 +161,6 @@ img {
             }
         }
     }
-
-    .contact {
-        width: 200px;
-        height: 80px;
-        background-color: black;
-        color: #ccc;
-        text-decoration: none;
-        line-height: 80px;
-        display: inline-block;
-        text-align: center;
-        margin-left: auto;
-        margin-top: 5px;
-        margin-right: 5px;
-    }
 }
 
 main {
@@ -331,4 +317,14 @@ footer {
             display: none;
         }
     }
+}
+
+@media screen and (max-width: 560px) {
+  .card {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #d2cece;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
 }
